@@ -1,0 +1,23 @@
+\documentclass[12pt,onecolumn]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{cite}
+%\usepackage[sorting=ydnt]{biblatex}
+
+\begin{document}
+
+\title{Publications}
+\author{Carlos Barreto
+}
+
+\date{\today}
+
+
+\maketitle
+\nocite{*}
+
+
+\bibliographystyle{plainyr}
+{\def\section*#1{}\bibliography{references.bib}}
+% ref https://latex.org/forum/viewtopic.php?t=2806
+
+\end{document}
